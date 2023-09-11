@@ -34,7 +34,7 @@ addToCart:number=0;
   }
   incrementCartValue(){
    if (this.addToCart<this.product.inStock) {
-    this.addToCart ++;
+    this.addToCart++;
    }
   }
 }
